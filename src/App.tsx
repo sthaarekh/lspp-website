@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './layouts/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <p className='font-bold text-amber-500'>Hello World</p>
+    <div className="flex">
+      <Navbar/>
     </div>
   )
 }
