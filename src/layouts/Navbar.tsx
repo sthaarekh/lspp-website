@@ -12,7 +12,7 @@ const Navbar = ({
   ctaText = "Apply Now",
 }) => {
   return (
-    <header className="w-full border-b border-gray-200 bg-[#f0eeee] ">
+    <header className="w-full border-b border-gray-200 bg-[#fffcfc] ">
       <div className="mx-auto flex h-[80px] items-center justify-between max-w-7xl mx-auto px-8 lg:px-16">
         
         <div className="flex items-center">

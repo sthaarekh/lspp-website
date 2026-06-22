@@ -14,7 +14,7 @@ import person3 from '../assets/person3.png';
 const Hero = () => {
   return (
     <section className="bg-[#F5F4F7] min-h-screen">
-      <div className="max-w-7xl mx-auto px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto px-8 lg:px-16 py-10">
 
         <div className="grid lg:grid-cols-2 items-center min-h-[850px] gap-16">
 
