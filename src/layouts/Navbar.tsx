@@ -12,8 +12,8 @@ const Navbar = ({
   ctaText = "Apply Now",
 }) => {
   return (
-    <header className="w-full border-b border-gray-200 bg-[#F6F4F4]">
-      <div className="mx-auto flex h-[80px] items-center justify-between px-12">
+    <header className="w-full border-b border-gray-200 bg-[#f0eeee] ">
+      <div className="mx-auto flex h-[80px] items-center justify-between max-w-7xl mx-auto px-8 lg:px-16">
         
         <div className="flex items-center">
             <img src={logo} alt="LF logo" className="h-7 w-auto" />
