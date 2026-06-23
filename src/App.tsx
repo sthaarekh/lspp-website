@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./layouts/Navbar";
 import Hero from "./layouts/Hero";
 import Roadmap from "./layouts/Roadmap";
+import Status from "./layouts/Status";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Roadmap/>
+      <Status/>
     </div>
   );
 };
