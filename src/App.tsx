@@ -6,6 +6,7 @@ import Status from "./layouts/Status";
 import AlumniSection from "./layouts/Alumni";
 import MeetOurMentors from "./layouts/Mentor";
 import FAQSection from "./layouts/FAQ";
+import Footer from "./layouts/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AlumniSection/>
       <MeetOurMentors/>
       <FAQSection/>
+      <Footer/>
     </div>
   );
 };
