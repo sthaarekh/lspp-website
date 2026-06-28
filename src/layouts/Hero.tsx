@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Users,
   GraduationCap,
@@ -16,7 +15,7 @@ const Hero = () => {
     <section className="bg-[#efefef] min-h-screen">
       <div className="max-w-7xl mx-auto px-8 lg:px-16 py-10">
 
-        <div className="grid lg:grid-cols-2 items-center min-h-[850px] gap-16">
+        <div className="grid lg:grid-cols-2 items-center min-h-212.5 gap-16">
 
           <div>
             <div className="inline-flex items-center gap-2 bg-[#DDE3FF] px-5 py-3 rounded-full">
@@ -76,9 +75,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative h-[700px]">
+          <div className="relative h-175">
 
-            <div className="absolute right-0 top-0 w-[380px] h-[360px] rounded-[40px] overflow-hidden shadow-xl rotate-2">
+            <div className="absolute right-0 top-0 w-95 h-90 rounded-[40px] overflow-hidden shadow-xl rotate-2">
               <img
                 src={img3}
                 alt=""
@@ -86,7 +85,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute left-0 top-40 w-[350px] h-[420px] rounded-[30px] overflow-hidden shadow-xl">
+            <div className="absolute left-0 top-40 w-87.5 h-105 rounded-[30px] overflow-hidden shadow-xl">
               <img
                 src={img1}
                 alt=""
@@ -94,7 +93,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute left-12 bottom-0 w-[330px] h-[220px] rounded-[24px] overflow-hidden shadow-xl -rotate-6">
+            <div className="absolute left-12 bottom-0 w-82.5 h-55 rounded-3xl overflow-hidden shadow-xl -rotate-6">
               <img
                 src={img2}
                 alt=""
@@ -103,7 +102,7 @@ const Hero = () => {
             </div>
 
 
-            <div className="absolute top-40 right-[-20px] bg-white rounded-3xl px-6 py-5 shadow-lg flex items-center gap-4">
+            <div className="absolute top-40 -right-5 bg-white rounded-3xl px-6 py-5 shadow-lg flex items-center gap-4">
               <div className="bg-blue-600 p-3 rounded-full">
                 <GraduationCap
                   size={20}
@@ -124,7 +123,7 @@ const Hero = () => {
             </div>
 
             {/* Network Card */}
-            <div className="absolute left-[-40px] bottom-36 bg-white rounded-3xl px-6 py-5 shadow-lg flex items-center gap-4">
+            <div className="absolute -left-10 bottom-36 bg-white rounded-3xl px-6 py-5 shadow-lg flex items-center gap-4">
 
               <div className="bg-green-500 p-3 rounded-full">
                 <Users

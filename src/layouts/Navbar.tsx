@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import logo from "../assets/lf-logo.svg";
 
 const Navbar = ({ ctaText = "Apply Now" }) => {
-  const progressRef = useRef(null);
+  const progressRef = useRef<HTMLDivElement | null>(null);
   const [showButton, setShowButton] = useState(true);
 
   useEffect(() => {
@@ -16,12 +16,11 @@ const Navbar = ({ ctaText = "Apply Now" }) => {
 
       const progress = Math.min(scrollY / maxScroll, 1);
 
-      // GPU accelerated
       if (progressRef.current) {
         progressRef.current.style.transform = `scaleX(${progress})`;
       }
 
-      // Hide button while scrolling down
+
       if (scrollY > lastScroll && scrollY > 80) {
         setShowButton(false);
       } else {
@@ -63,7 +62,7 @@ const Navbar = ({ ctaText = "Apply Now" }) => {
         </button>
       </div>
 
-      <div className="h-[3px] bg-transparent">
+      <div className="h-0.75 bg-transparent">
         <div
           ref={progressRef}
           className="h-full origin-left bg-[#169948] will-change-transform transition-transform duration-150 ease-out"

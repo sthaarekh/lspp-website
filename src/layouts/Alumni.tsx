@@ -18,8 +18,8 @@ const AlumniSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {alumniData.map((alumni) => (
-            <div key={alumni.id}  className="bg-white rounded-[32px] overflow-hidden border border-gray-100 shadow-sm flex flex-col">
-              <div className="relative h-[280px] w-full bg-gray-100">
+            <div key={alumni.id}  className="bg-white rounded-4xl overflow-hidden border border-gray-100 shadow-sm flex flex-col">
+              <div className="relative h-70 w-full bg-gray-100">
                 <img 
                   src={alumni.image} 
                   alt={alumni.name} 

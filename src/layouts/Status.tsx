@@ -1,4 +1,3 @@
-import React from 'react';
 import { statsData } from '../data/stats';
 
 const Status = () => {
@@ -12,7 +11,7 @@ const Status = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {statsData.map((stat) => (
-            <div key={stat.id} className="bg-[#1fa857] border border-white/15 rounded-3xl p-8 text-left h-[180px] flex flex-col justify-center">
+            <div key={stat.id} className="bg-[#1fa857] border border-white/15 rounded-3xl p-8 text-left h-45 flex flex-col justify-center">
               <span className="text-3xl md:text-4xl font-bold text-white block mb-2">
                 {stat.value}
               </span>

@@ -2,7 +2,7 @@ import logo from "../assets/lf-logo-white.svg";
 
 export default function Footer() {
   return (
-    <footer className=" bg-[#169948] max-h-[400px] flex flex-col justify-end pb-12 py-20 px-6 md:px-16 selection:bg-[#4ade80] selection:text-black">
+    <footer className=" bg-[#169948] max-h-100 flex flex-col justify-end pb-12 py-20 px-6 md:px-16 selection:bg-[#4ade80] selection:text-black">
       <div className="text-center pointer-events-none select-none ">
         <span className="text-[14vw] font-black tracking-tighter leading-none opacity-[0.06] text-white italic transform -rotate-3 block">
           LEAPFROG
@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl w-full mx-auto relative z-10 px-6">
-        <div className="w-full h-[1px] bg-white/5 mb-10" />
+        <div className="w-full h-px bg-white/5 mb-10" />
         <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col space-y-3">
             <p className="text-xs tracking-widest uppercase text-[#eae7e7]">
