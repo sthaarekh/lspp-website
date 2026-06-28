@@ -1,4 +1,4 @@
-import {mentorsData} from "../data/Mentor";
+import {mentorsData} from '../data/mentor'
 
 export default function MeetOurMentors() {
   return (
