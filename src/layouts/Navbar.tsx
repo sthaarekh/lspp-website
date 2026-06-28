@@ -12,7 +12,7 @@ const Navbar = ({
   ctaText = "Apply Now",
 }) => {
   return (
-    <header className="w-full border-b border-gray-200 bg-[#fffcfc] ">
+    <header className="w-full border-b border-gray-200 bg-[#efefef] ">
       <div className="mx-auto flex h-[80px] items-center justify-between max-w-7xl mx-auto px-8 lg:px-16">
         
         <div className="flex items-center">
@@ -42,7 +42,7 @@ const Navbar = ({
           })}
         </nav>
 
-        <button className="rounded-[18px] bg-black px-10 py-4 text-[18px] font-medium text-white transition-all hover:scale-[1.02]">
+        <button className="rounded-[18px] bg-[#169948] px-10 py-4 text-[18px] font-medium text-white transition-all hover:scale-[1.02]">
           {ctaText}
         </button>
       </div>

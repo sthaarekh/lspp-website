@@ -13,7 +13,7 @@ import person3 from '../assets/person3.png';
 
 const Hero = () => {
   return (
-    <section className="bg-[#F5F4F7] min-h-screen">
+    <section className="bg-[#efefef] min-h-screen">
       <div className="max-w-7xl mx-auto px-8 lg:px-16 py-10">
 
         <div className="grid lg:grid-cols-2 items-center min-h-[850px] gap-16">
@@ -22,18 +22,18 @@ const Hero = () => {
             <div className="inline-flex items-center gap-2 bg-[#DDE3FF] px-5 py-3 rounded-full">
               <Sparkles size={14} />
               <span className="text-[#1D2E6F] font-medium">
-                Cohort 2024 Now Open
+                Cohort 2026 Now Open
               </span>
             </div>
 
             <div className="mt-10">
-              <h1 className="text-5xl font-black leading-none text-[#111]">
+              <h1 className="text-6xl font-black leading-none text-[#169948]">
                 LEARN.
               </h1>
-              <h1 className="text-5xl font-black leading-none text-[#111] mt-2">
+              <h1 className="text-6xl font-black leading-none text-[#169948] mt-2">
                 LEAD.
               </h1>
-              <h1 className="text-5xl font-black leading-none text-[#111] mt-2">
+              <h1 className="text-6xl font-black leading-none text-[#169948] mt-2">
                 BUILD.
               </h1>
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
               deep-end of tech innovation.
             </p>
 
-            <button className="mt-10 bg-black text-white px-10 py-5 rounded-2xl text-xl font-medium hover:opacity-90 transition">
+            <button className="mt-10 bg-[#169948] text-white px-10 py-5 rounded-2xl text-xl font-medium hover:opacity-90 transition">
               Start Your Application
             </button>
 

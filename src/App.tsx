@@ -3,6 +3,8 @@ import Navbar from "./layouts/Navbar";
 import Hero from "./layouts/Hero";
 import Roadmap from "./layouts/Roadmap";
 import Status from "./layouts/Status";
+import AlumniSection from "./layouts/Alumni";
+import MeetOurMentors from "./layouts/Mentor";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Hero />
       <Roadmap/>
       <Status/>
+      <AlumniSection/>
+      <MeetOurMentors/>
     </div>
   );
 };
