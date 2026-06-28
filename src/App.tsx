@@ -5,6 +5,7 @@ import Roadmap from "./layouts/Roadmap";
 import Status from "./layouts/Status";
 import AlumniSection from "./layouts/Alumni";
 import MeetOurMentors from "./layouts/Mentor";
+import FAQSection from "./layouts/FAQ";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Status/>
       <AlumniSection/>
       <MeetOurMentors/>
+      <FAQSection/>
     </div>
   );
 };
